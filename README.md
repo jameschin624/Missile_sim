@@ -1,5 +1,9 @@
-# Missile_sim
-Surface-to-Air Missile Interception Simulation System
+# Surface-to-Air Missile Interception Simulation System
+這是一種模擬飛彈攔截的系統，我們首先收集行進中的飛行物體，並對其進行分析，以此預測未來的路徑並發射攔截彈進行攔截，然而空中物體飛行途中時刻受到諸如:重力、空氣阻力、風力等外力影響，這些外力時刻在變化，使得加速度呈現非線性狀態，造成我們預測上的困難。因此，我們假設物體在飛行途中，受到的外力作用會逐漸趨於穩態，藉由使用回歸分析的方法我們可以得到最逼近物體軌跡方程式之因數數列，這的方程式最後會求出一條重合物體軌跡的預測線，藉由這個動作使預測的基準度有所提升，並將其軌跡在螢幕上模擬出來，最重要的是這預測軌跡與實際軌跡的誤差非常微小。
+
+#Missile
+可以透過missile.txt、interceptor.txt自行建構飛彈與攔截飛彈的模型(e.g. 飛行的推力、風速、重力等外力)
+
 # Demo
 https://user-images.githubusercontent.com/117089260/199053652-52d3a370-0e5a-456e-8d0a-ba274ac1cd68.mp4
 
